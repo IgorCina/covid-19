@@ -1,0 +1,31 @@
+<header>
+    <nav class="nav-bar">
+        <div class="menu-cel">
+            <button type="button" class="btn" (click)="toggle()">
+                <span class="material-icons">menu</span>
+            </button>
+        </div>
+        <div class="menu-cel2" [ngClass]="{'sidebar-open': opened}">
+            <button type="button" class="btn" (click)="toggle()">
+                <span class="material-icons">menu</span>
+            </button>
+        <ul>
+            <li class="nb-itens2" (click)="toggle()"><a routerLink="">Home</a></li>
+            <li class="nb-itens2" (click)="toggle()"><a routerLink="/sintomas">Sintomas e Tratamento</a></li>
+            <li class="nb-itens2" (click)="toggle()"><a routerLink="/transmissao">Transmissão e Prevenção</a></li>
+            <li class="nb-itens2" (click)="toggle()"><a routerLink="/dados">Dados e Notícias</a></li>
+            <li class="nb-itens2" (click)="toggle()"><a routerLink="/fica-em-casa">#FicaEmCasa</a></li>
+        </ul>
+        </div>
+        <div class="logo">
+            <img class="img-logo" src="../../../assets/_imagens/logo.png" width="320px" height="150px">
+        </div>
+        <ul class="nav-ul">
+            <li class="nb-itens"><a routerLink="">Home</a></li>
+            <li class="nb-itens"><a routerLink="/sintomas">Sintomas e Tratamento</a></li>
+            <li class="nb-itens"><a routerLink="/transmissao">Transmissão e Prevenção</a></li>
+            <li class="nb-itens"><a routerLink="/dados">Dados e Notícias</a></li>
+            <li class="nb-itens"><a routerLink="/fica-em-casa">#FicaEmCasa</a></li>
+        </ul>
+    </nav>
+    </header>

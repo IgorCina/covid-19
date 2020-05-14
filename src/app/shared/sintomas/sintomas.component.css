@@ -1,0 +1,79 @@
+.l1{
+    align-items: center;
+    text-align: left;
+    margin: 30px 20px 20px 5px;
+    padding: 0;
+    float: left;
+    line-height: 1.3;
+    width: 48%;
+}
+.l1-ti{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 25px;
+}
+.l1-itens{
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+}
+.l2{
+    align-items: center;
+    text-align: left;
+    margin: 30px 0px 20px 20px;
+    padding: 0;
+    float: left;
+    line-height: 1.3;
+    width: 47%;
+}
+.l2-ti{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 25px;
+}
+.l2-itens{
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+}
+.fonte-li{
+    float: right;
+    text-align: right;
+    font-size: 12px;
+    font-family: 'Bree Serif', serif;
+}
+.l3{
+    align-items: center;
+    text-align: left;
+    margin: 40px 5px 10px 10px;
+
+}
+.l3-ti{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 25px;
+}
+.l3-itens{
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+}
+.pic{
+    margin: 40px;
+    width: 42%;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+img{
+    width: 100%;
+}
+@media (min-width: 0px) and (max-width: 401px) {
+    .l1, .l2, .l3{
+        width: 100%;
+        float: none;
+        margin: 15px 0;
+    }
+    .pic{
+        margin: 20px 0;
+        width: 100%;
+        padding: 0;
+    }
+}
